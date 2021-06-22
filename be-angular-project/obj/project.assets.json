@@ -7715,11 +7715,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\be-fe-angular-project\\be-angular-project\\be-angular-project\\be-angular-project.csproj",
+      "projectUniqueName": "D:\\be-fe-angular-project\\BE-Angular-netcore\\be-angular-project\\be-angular-project.csproj",
       "projectName": "be-angular-project",
-      "projectPath": "D:\\be-fe-angular-project\\be-angular-project\\be-angular-project\\be-angular-project.csproj",
+      "projectPath": "D:\\be-fe-angular-project\\BE-Angular-netcore\\be-angular-project\\be-angular-project.csproj",
       "packagesPath": "C:\\Users\\tranm\\.nuget\\packages\\",
-      "outputPath": "D:\\be-fe-angular-project\\be-angular-project\\be-angular-project\\obj\\",
+      "outputPath": "D:\\be-fe-angular-project\\BE-Angular-netcore\\be-angular-project\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",

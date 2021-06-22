@@ -49,7 +49,7 @@ namespace be_angular_project.Models
             modelBuilder.Entity<Product>(entity =>
             {
                 entity.HasKey(e => e.IdProduct)
-                    .HasName("PK__Products__BA39E84F5E7B2CE7");
+                    .HasName("PK__Products__BA39E84F84EA87F3");
 
                 entity.Property(e => e.IdProduct).HasColumnName("id_product");
 
@@ -61,6 +61,12 @@ namespace be_angular_project.Models
 
                 entity.Property(e => e.Images).HasColumnName("images");
 
+                entity.Property(e => e.Images1).HasColumnName("images1");
+
+                entity.Property(e => e.Images2).HasColumnName("images2");
+
+                entity.Property(e => e.Images3).HasColumnName("images3");
+
                 entity.Property(e => e.NameProduct).HasColumnName("name_product");
 
                 entity.Property(e => e.Price).HasColumnName("price");
@@ -69,7 +75,7 @@ namespace be_angular_project.Models
                     .WithMany(p => p.Products)
                     .HasForeignKey(d => d.IdCategory)
                     .OnDelete(DeleteBehavior.ClientSetNull)
-                    .HasConstraintName("FK__Products__id_cat__5441852A");
+                    .HasConstraintName("FK__Products__id_cat__571DF1D5");
             });
 
             OnModelCreatingPartial(modelBuilder);

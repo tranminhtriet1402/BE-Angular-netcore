@@ -18,6 +18,6 @@ namespace be_angular_project.Models
         public string CodeCategory { get; set; }
         public string Descriptions { get; set; }
         [JsonIgnore(Condition = JsonIgnoreCondition.Always)]
-        public virtual ICollection<Product> Products { get; set; }  
+        public virtual ICollection<Product> Products { get; set; }
     }
 }

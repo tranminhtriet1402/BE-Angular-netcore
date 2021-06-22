@@ -31,14 +31,20 @@ namespace be_angular_project.Controllers
         [HttpGet]
         public async Task<ActionResult<IEnumerable<Category>>> GetCategories()
         {
+    
+
+
             CategoryDTO mess = new CategoryDTO()
-            {
-             
-                success = true,
-                message="Thao tác thành công",
-                cate = _context.Categories.ToList(),
-                total = _context.Categories.ToList().Count()
-            };
+                {
+
+                    success = true,
+                    message = "Thao tác thành công",
+                    cate = _context.Categories.OrderByDescending(x=>x.IdCategory).ToList(),
+                    total = _context.Categories.ToList().Count()
+                };
+   
+       
+          
 
             return Ok(mess);
 

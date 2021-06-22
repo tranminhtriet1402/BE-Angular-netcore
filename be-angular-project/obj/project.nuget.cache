@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "t5K6I8syqO3qYsNhSnojq32t3PkwPANxotlfYjO/wYsmz4ji4h5Y5Cam7xfsheLfQ5wmohL03qgYErbQ/AsEog==",
+  "dgSpecHash": "pK6V/wHv5W+5JNZ97VogW64EdzoJz9dylknRNuOQ6mJr4601y6oDVy/nIrwRqsspdXHsIScXAzCew0dBhaPSuQ==",
   "success": true,
-  "projectFilePath": "D:\\be-fe-angular-project\\be-angular-project\\be-angular-project\\be-angular-project.csproj",
+  "projectFilePath": "D:\\be-fe-angular-project\\BE-Angular-netcore\\be-angular-project\\be-angular-project.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\tranm\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
     "C:\\Users\\tranm\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\8.1.1\\automapper.extensions.microsoft.dependencyinjection.8.1.1.nupkg.sha512",
