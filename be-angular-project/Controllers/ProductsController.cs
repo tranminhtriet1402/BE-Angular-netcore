@@ -111,7 +111,7 @@ namespace be_angular_project.Controllers
                 }
             }
             Message mess = new Message() { success = true, message = "Thao tác thành công" };
-            return Ok(mess);
+            return Ok(product);
         }
 
         // POST: api/Products
